@@ -106,3 +106,4 @@ export async function POST(req: Request) {
   console.log(`Unhandled event type: ${eventType}`);
   return new Response("Event not handled", { status: 200 });
 }
+export{};
