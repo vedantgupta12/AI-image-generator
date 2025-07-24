@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.25.4",
+    "@clerk/clerk-sdk-node": "^5.1.6",
+    "@clerk/nextjs": "^6.26.0",
     "@hookform/resolvers": "^3.3.4",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-dialog": "^1.1.14",
@@ -31,7 +32,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.50.1",
     "stripe": "^14.16.0",
-    "svix": "^1.17.0",
+    "svix": "^1.69.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"
